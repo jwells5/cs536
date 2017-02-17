@@ -1,0 +1,21 @@
+"starts at 1:1"
+ "starts at 2:1" "starts at line 2"
+  "starts at 3:3"
+"bad string, messes up char count?
+"nah, cuz this is 5:1"
+abc61
+abc61 61abc
+"string with bad escape, followed by tokens \a \b \c" idAfterStr int bool
+# comment is ignored
+// other comment1
+# comment with tokens: bool { } a d c
+void main() {
+    bool value = true; // comment after line
+    while (true) {
+        // uh oh
+        int i = 0;
+    }
+
+    << >> cout cin
+    line;sameline;
+}

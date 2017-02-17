@@ -1,0 +1,42 @@
+[1,1] (STRINGLITERAL) "starts at 1:1"
+[2,2] (STRINGLITERAL) "starts at 2:1"
+[2,18] (STRINGLITERAL) "starts at line 2"
+[3,3] (STRINGLITERAL) "starts at 3:3"
+[5,1] (STRINGLITERAL) "nah, cuz this is 5:1"
+[6,1] (ID) abc61
+[7,1] (ID) abc61
+[7,7] (INTLITERAL) 61
+[7,9] (ID) abc
+[8,55] (ID) idAfterStr
+[8,66] int
+[8,70] bool
+[12,1] void
+[12,6] (ID) main
+[12,10] (
+[12,11] )
+[12,13] {
+[13,5] bool
+[13,10] (ID) value
+[13,16] =
+[13,18] true
+[13,22] ;
+[14,5] while
+[14,11] (
+[14,12] true
+[14,16] )
+[14,18] {
+[16,9] int
+[16,13] (ID) i
+[16,15] =
+[16,17] (INTLITERAL) 0
+[16,18] ;
+[17,5] }
+[19,5] <<
+[19,8] >>
+[19,11] cout
+[19,16] cin
+[20,5] (ID) line
+[20,9] ;
+[20,10] (ID) sameline
+[20,18] ;
+[21,1] }

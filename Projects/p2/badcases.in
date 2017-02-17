@@ -1,0 +1,19 @@
+@
+@id
+9999999999999999
+_$
+abc$d
+"unterminated string
+"unterm weird escape \
+"bad escape \ "
+"bad escape \a \b \c"
+"unterm bad escape \a ok?
+"really bad "\str" "
+"
+"\"
+"\ "
+" \"
+"unescaped string, with a reserved token afterwards... int bool
+"bad str, then something else \a" idAfterBadStr # the id should still be read
+"str that ends with EOF
+"unterminated string (eof)

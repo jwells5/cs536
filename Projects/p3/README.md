@@ -1,0 +1,3 @@
+# Project 3
+
+> For this assignment you will use the parser-generator Java CUP to write a parser for the moo language. The parser will find syntax errors and, for syntactically correct programs, it will build an abstract-syntax tree (AST) representation of the program. You will also write methods to unparse the AST built by your parser and an input file to test your parser. A main program, P3.java, that calls the parser and then the unparser is provided for you to use. You will be graded on the correctness of your parser and your unparse methods and on how thoroughly your input file tests the parser. In particular, you should write an input file that causes the action associated with every grammar rule in your Java CUP specification to be executed at least once.
